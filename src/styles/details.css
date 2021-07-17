@@ -1,0 +1,75 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card{
+    background: gray;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    background: rgb(60, 62, 68);
+    border-radius: 0.5rem;
+    margin: 0.75rem;
+    transition: 0.2s ease all;
+    flex: 1
+}
+
+  .card img {
+    max-width: 100%;
+  }
+  .card .text {
+    padding: 0 20px 20px;
+  }
+  .card .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    }
+
+.alive{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    background: green;
+}
+.unknown{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    background: darkgray;
+}
+.dead{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    background: red;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.detail-labels {
+  text-align: justify;
+}
+
+.custom-select {
+  position: relative;
+  font-family: Arial;
+  margin: 15px;
+}
+
+.filter-label{
+  margin: 15px;
+}
